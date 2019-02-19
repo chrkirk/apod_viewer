@@ -1,6 +1,6 @@
 (function() {
-  // const url = 'https://apod-viewer-app.herokuapp.com/data';
-  const url = 'http://localhost:3000/data'; // If you want to run it locally
+  const url = 'https://apod-viewer-app.herokuapp.com/data';
+  // const url = 'http://localhost:3000/data'; // If you want to run it locally
   $.get(url, (res) => {
 
     // The API returns an array sorted from oldest to most recent, that is why I reverse it
