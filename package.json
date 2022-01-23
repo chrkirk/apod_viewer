@@ -9,11 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.25.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4"
   },
   "engines": {
-    "node": "8.11.3"
+    "node": "16.x"
   }
 }
